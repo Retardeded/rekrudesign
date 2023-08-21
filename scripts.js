@@ -75,9 +75,19 @@ document.addEventListener('DOMContentLoaded', function() {
 document.addEventListener('DOMContentLoaded', function () {
     const searchButton = document.querySelector('.btn-custom-search');
     const searchForm = document.querySelector('.d-flex');
-    
-    searchButton.addEventListener('click', function (event) {
-        event.preventDefault(); // Zablokuj domyślną akcję submit formularza
-        searchForm.classList.toggle('active');
-    });
+
+    // Define a function to handle the button click
+    function handleSearchButtonClick(event) {
+        if (window.innerWidth > 992) {
+            event.preventDefault();
+            searchForm.classList.toggle('active');
+        } else {
+            event.preventDefault(); // Prevent default behavior without toggling
+        }
+    }
+
+    // Attach the click event listener to the button
+    searchButton.addEventListener('click', handleSearchButtonClick);
 });
+
+
