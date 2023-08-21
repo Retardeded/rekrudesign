@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Nowoczesne Aranżacje Ogrodu</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox-plus-jquery.min.js"></script>
+<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js"></script>
+</head>
+
+
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+        <a class="navbar-brand" href="#">
+            <strong>giard</strong>design
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Oferta
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Projekty</a></li>
+                        <li><a class="dropdown-item" href="#">Wizualizacje</a></li>
+                        <li><a class="dropdown-item" href="#">Realizacje</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#o-firmie">O Firmie</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#realizacje">Realizacje</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#kontakt">Kontakt</a>
+                </li>
+            </ul>
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Szukaj" aria-label="Szukaj">
+                <button class="btn btn-custom-search" type="submit">
+                    <i class="bi bi-search"></i>
+                </button>
+            </form>
+        </div>
+    </div>
+</nav>
+
+<section class="py-0 section-banner">
+    <div class="full-width-container">
+        <div class="row">
+            <div class="col-lg-6 text-section">
+                <div class="title-lines">
+                    <div class="title-line">Nowoczesna</div>
+                    <div class="title-line">aranżacja</div>
+                    <div class="title-line">Twojego ogrodu</div>
+                </div>
+                <p>Marka GiardDesign to wieloletnie doświadczenie i wysoka estetyka realizacji. Oferujemy kompleksowy zakres usług z indywidualnym podejściem do każdego projektu.</p>
+                <a href="#" class="btn btn-contact">Skontaktuj się z nami</a>
+                <a href="#nasze-projekty" class="btn btn-reverse">Zobacz nasze realizacje <span class="bi bi-arrow-down"></span></a>
+            </div>
+            <div class="col-lg-6 photo-section">
+                <img src="photos/ogrodPhoto.png" class="img-fluid" alt="Ogród">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="offer-section">
+    <div class="container">
+        <div class="top-content">
+            <div class="small-title">Oferta</div>
+            <h2>Działamy kompleksowo</h2>
+            <p>Oferujemy kompletną obsługę inwestycji terenów zielonych. Projektujemy nowoczesne ogrody przydomowe oraz rezydencjonalne. Stworzymy dla Ciebie projekt, zwizualizujemy go i wcielimy w życie, a na każdym etapie posłużymy radą i wieloletnim doświadczeniem. </p>
+        </div>
+
+        <div class="boxes">
+            <div class="box">
+                <i class="icon pen-icon"></i>
+                <h3>Projekty</h3>
+                <p>Zaprojektujemy Twój ogród w nowoczesnym stylu i z najlepszym wykorzystaniem istniejącej przestrzeni.</p>
+                <a href="#" class="btn-more">
+                    <span class="text-with-arrow">
+                        Dowiedz się więcej 
+                        <img src="icons/vectorRight.png" alt="Arrow Icon" class="arrow-right-icon">
+                    </span>
+                </a>
+            </div>
+            
+            <div class="box">
+                <i class="icon eye-icon"></i>
+                <h3>Wizualizacje</h3>
+                <p>Przedstawimy Ci projekty koncepcyjne w postaci wirtualnego spaceru animowanego w technologii 3D.</p>
+                <a href="#" class="btn-more">
+                    <span class="text-with-arrow">
+                        Dowiedz się więcej 
+                        <img src="icons/vectorRight.png" alt="Arrow Icon" class="arrow-right-icon">
+                    </span>
+                </a>
+            </div>
+
+            <div class="box">
+                <i class="icon stars-icon"></i>
+                <h3>Realizacje</h3>
+                <p>Zrealizujemy Twoje marzenie przy użyciu najnowszych rozwiązań i zaawansowanych technologii.</p>
+                <a href="#" class="btn-more">
+                    <span class="text-with-arrow">
+                        Zobacz nasze realizacje
+                        <img src="icons/vectorRight.png" alt="Arrow Icon" class="arrow-right-icon">
+                    </span>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="o-firmie" class="about-section bg-light">
+    <div class="full-width-container">
+        <div class="row">
+            <!-- Kwadrat z Zdjęciem -->
+            <div class="col-lg-6">
+                <img src="photos/oFirmiePhoto.png" alt="O Firmie" class="about-img">
+            </div>
+            
+            <!-- Kwadrat z Tekstem -->
+            <div class="col-lg-6 about-textbox">
+                <div class="small-title">O Firmie</div>
+                <h2>Tworzymy <br> z Pasją</h2>
+                <p>Każdy projekt to nowe wyzwanie. Dlatego nasz zespół tworzą wykwalifikowani projektanci oraz architekci, których zadaniem jest rozpoznanie i realizacja potrzeb każdego Klienta. Nasza specjalizacja to przestrzenie nowoczesne, które charakteryzuje minimalizm, geometria i elegancka prostota. Tworzymy ogrody małoobsługowe, dostosowane do współczesnego trybu życia.</p>
+                <a href="#" class="btn-more btn anti-green-button">Poznaj nas bliżej <span class="bi bi-arrow-right"></span></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Gallery Section -->
+<section class="gallery-section">
+    <div class="container">
+        <div class="section-titles">
+            <div class="small-title">Realizacje</div>
+            <h2>Nasze projekty</h2>
+        </div>
+
+        <div id="gallery-container" class="grid">
+            <!-- Images will be inserted here by JavaScript -->
+        </div>
+        <!-- Button -->
+        <div class="">
+            <a class="btn-expand btn-reverse">Rozwiń <span class="bi bi-arrow-down"></span></a>
+        </div>
+    </div>
+</section>
+
+<section class="contact-section">
+    <div class="green-rectangle">
+        <div class="left-text">
+            <h2>Zostańmy w kontakcie!</h2>
+            <p>Znajdziesz nas na <span>Instagramie</span>.</p>
+        </div>
+        <div class="right-text">
+            <p>Śledź nasze<br>najnowsze realizacje!</p>
+            <a href="https://www.instagram.com" target="_blank" class="btn-instagram">Instagram</a>
+        </div>
+    </div>
+</section>
+
+<footer class="footer-section">
+    <div class="footer-container">
+        <div class="contact-info">
+            <div class="left-info">
+                <h5><strong>giard</strong>design</h5>
+            </div>
+            <div class="right-info">
+                <p>Daj znać, co możemy dla Ciebie zrobić!</p>
+                <a href="#" class="btn-contact">Skontaktuj się z nami</a>
+            </div>
+        </div>
+        <div class="white-bar"></div>
+        <div class="bottom-info">
+            <div class="left-bottom-info">
+                <a href="#">Kontakt</a>
+                <a href="#">Instagram</a>
+                <a href="#">Facebook</a>
+                <a href="#">Linkedin</a>
+            </div>
+            <div class="right-bottom-info">
+                    <p>000-000-000</p>
+                    <p>giarddesign@kontakt.pl</p>
+            </div>
+        </div>
+        <div class="final-info">
+            <div class="left-final-info">
+                <p>Prawa zastrzeżone © 2022</p>
+            </div>
+            <div class="right-final-info">
+                <p>made by <img src="icons/logo-full-light.png" alt="adRespect Logo"></p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<script src="scripts.js"></script>
+
+</body>
+</html>
